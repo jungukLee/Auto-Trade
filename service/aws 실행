@@ -13,7 +13,3 @@ tail -f /home/ubuntu/bit/nohup.out
 ps aux | grep python3
 
 Kill n
-
-파일 업로드
-#ssh -i /Users/jeongwook/Desktop/bit/autoTradePem.pem ubuntu@43.203.239.82
-scp -i /Users/jeongwook/Desktop/bit/autoTradePem.pem -r /Users/jeongwook/Desktop/bit/auto.py ubuntu@43.203.239.82:/home/ubuntu/
