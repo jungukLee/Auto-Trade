@@ -1,0 +1,19 @@
+1.연결 후 먼저 가상환경 키기 (pyubit down )
+source /home/ubuntu/bit/myenv/bin/activate
+
+2. 페이지를 나가도 실행 가능하게끔 run_auto_trade.sh를 실행하자
+cd .. 으로 bit 폴더로 가서 실행하기
+./run_auto_trade.sh
+
+ 로그 학인
+tail -f /home/ubuntu/bit/nohup.out
+
+
+실행중인 파이썬 파일
+ps aux | grep python3
+
+Kill n
+
+파일 업로드
+#ssh -i /Users/jeongwook/Desktop/bit/autoTradePem.pem ubuntu@43.203.239.82
+scp -i /Users/jeongwook/Desktop/bit/autoTradePem.pem -r /Users/jeongwook/Desktop/bit/auto.py ubuntu@43.203.239.82:/home/ubuntu/
